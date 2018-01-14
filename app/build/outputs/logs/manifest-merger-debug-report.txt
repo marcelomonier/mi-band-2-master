@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:5:5-68
+	android:name
+		ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:5:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:6:5-74
+	android:name
+		ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:6:22-71
+application
+ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:8:5-22:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/marcelomonier/.android/build-cache/18057f31c6641f991d08d044204b6403faa0d7d7/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/marcelomonier/.android/build-cache/9ba3a1f134417fc02b827de1e1aa5c37b06c98f9/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/marcelomonier/.android/build-cache/964c57c382db50dc6ec33838847bb20188781446/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marcelomonier/.android/build-cache/742b182fc5de8bdc93830331614937b381217f8c/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marcelomonier/.android/build-cache/347cb3a8d0781699f1b9e53c807bf24ce25d99e3/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marcelomonier/.android/build-cache/a214dd4955ba12a49ef61c0a03840003ff19e263/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/marcelomonier/.android/build-cache/ec9d17eed948001f07fa0dfc5e89ef8978513a3a/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/marcelomonier/.android/build-cache/2be0f564f00f97a690bd850749fe893451980770/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/marcelomonier/.android/build-cache/a341de128e209d76a277b7861d38c390587b955a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/marcelomonier/.android/build-cache/35c23d45a57961b35d31c7a23af2a9dea2b340b2/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:13:9-35
+	android:roundIcon
+		ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:12:9-54
+	android:allowBackup
+		ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:14:9-40
+activity#id.aashari.code.miband2.Activities.MainActivity
+ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:15:19-58
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/marcelomonier/.android/build-cache/18057f31c6641f991d08d044204b6403faa0d7d7/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /Users/marcelomonier/.android/build-cache/9ba3a1f134417fc02b827de1e1aa5c37b06c98f9/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/marcelomonier/.android/build-cache/964c57c382db50dc6ec33838847bb20188781446/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marcelomonier/.android/build-cache/742b182fc5de8bdc93830331614937b381217f8c/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marcelomonier/.android/build-cache/347cb3a8d0781699f1b9e53c807bf24ce25d99e3/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marcelomonier/.android/build-cache/a214dd4955ba12a49ef61c0a03840003ff19e263/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/marcelomonier/.android/build-cache/ec9d17eed948001f07fa0dfc5e89ef8978513a3a/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/marcelomonier/.android/build-cache/2be0f564f00f97a690bd850749fe893451980770/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] /Users/marcelomonier/.android/build-cache/a341de128e209d76a277b7861d38c390587b955a/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/marcelomonier/.android/build-cache/35c23d45a57961b35d31c7a23af2a9dea2b340b2/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/marcelomonier/.android/build-cache/18057f31c6641f991d08d044204b6403faa0d7d7/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/marcelomonier/.android/build-cache/18057f31c6641f991d08d044204b6403faa0d7d7/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/marcelomonier/.android/build-cache/9ba3a1f134417fc02b827de1e1aa5c37b06c98f9/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/marcelomonier/.android/build-cache/964c57c382db50dc6ec33838847bb20188781446/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marcelomonier/.android/build-cache/742b182fc5de8bdc93830331614937b381217f8c/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marcelomonier/.android/build-cache/347cb3a8d0781699f1b9e53c807bf24ce25d99e3/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marcelomonier/.android/build-cache/a214dd4955ba12a49ef61c0a03840003ff19e263/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/marcelomonier/.android/build-cache/ec9d17eed948001f07fa0dfc5e89ef8978513a3a/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/marcelomonier/.android/build-cache/2be0f564f00f97a690bd850749fe893451980770/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/marcelomonier/.android/build-cache/a341de128e209d76a277b7861d38c390587b955a/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/marcelomonier/.android/build-cache/18057f31c6641f991d08d044204b6403faa0d7d7/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/marcelomonier/.android/build-cache/18057f31c6641f991d08d044204b6403faa0d7d7/output/AndroidManifest.xml:26:9-47

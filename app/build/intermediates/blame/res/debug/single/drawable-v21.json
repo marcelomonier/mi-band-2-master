@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/marcelomonier/.android/build-cache/18057f31c6641f991d08d044204b6403faa0d7d7/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/marcelomonier/.android/build-cache/18057f31c6641f991d08d044204b6403faa0d7d7/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/marcelomonier/.android/build-cache/18057f31c6641f991d08d044204b6403faa0d7d7/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/marcelomonier/MEGA/workspaceIoT/mi-band-2-master/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/marcelomonier/.android/build-cache/18057f31c6641f991d08d044204b6403faa0d7d7/output/res/drawable-v21/abc_edit_text_material.xml"
+    }
+]
