@@ -1,130 +1,180 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20dp"
     tools:context="id.aashari.code.miband2.Activities.MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+
+    <EditText
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:hint="Physical Address"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="20dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <EditText
-            android:id="@+id/txtPhysicalAddress"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Physical Address" />
-
-        <Button
-            android:id="@+id/btnStartConnecting"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Start Connecting" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingTop="20dp">
+        android:text="Iniciar conexão"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/linearLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/linearLayout2" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="5dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.1"
-                android:text="State:"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/txtState"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.9" />
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingBottom="20dp"
-        android:paddingTop="20dp">
+        android:text="State:"
+        android:textStyle="bold"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/linearLayout"
+        android:id="@+id/linearLayout3" />
 
-        <Button
-            android:id="@+id/btnGetBatteryInfo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.3"
-            android:text="Battery Info" />
+    <TextView
+        android:id="@+id/linearLayout4"
+        android:layout_width="364dp"
+        android:layout_height="31dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/linearLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/linearLayout3"
+        android:layout_marginTop="-1dp"
+        app:layout_constraintHorizontal_bias="0.0" />
 
-        <Button
-            android:id="@+id/btnGetHeartRate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.3"
-            android:text="Heart Rate" />
 
-        <Button
-            android:id="@+id/btnWalkingInfo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.3"
-            android:text="Walking Info" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/btnGetBatteryInfo"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingBottom="20dp"
-        android:paddingTop="20dp">
+        android:text="Info Bateria"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="0dp" />
 
-        <Button
-            android:id="@+id/btnStartVibrate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.3"
-            android:text="Start Vibrate" />
-
-        <Button
-            android:id="@+id/btnStopVibrate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.3"
-            android:text="Stop Vibrate" />
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/btnGetHeartRate"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="10dp">
+        android:text="Frequência Cardíaca"
+        tools:layout_conversion_absoluteX="112dp"
+        tools:layout_conversion_absoluteY="177dp"
+        tools:layout_conversion_absoluteWidth="155dp"
+        tools:layout_conversion_absoluteHeight="53dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintVertical_bias="0.466" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Byte Received:"
-            android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnWalkingInfo"
+        android:layout_width="179dp"
+        android:layout_height="50dp"
+        android:text="Walking Info"
+        tools:layout_conversion_absoluteX="267dp"
+        tools:layout_conversion_absoluteY="177dp"
+        tools:layout_conversion_absoluteWidth="96dp"
+        tools:layout_conversion_absoluteHeight="53dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintVertical_bias="0.468" />
 
-        <TextView
-            android:id="@+id/txtByte"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:scrollHorizontally="false" />
-    </LinearLayout>
 
-</LinearLayout>
+    <Button
+        android:id="@+id/btnStartVibrate"
+        android:layout_width="175dp"
+        android:layout_height="47dp"
+        android:text="Vibrar"
+        tools:layout_conversion_absoluteX="20dp"
+        tools:layout_conversion_absoluteY="270dp"
+        tools:layout_conversion_absoluteWidth="167dp"
+        tools:layout_conversion_absoluteHeight="48dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintVertical_bias="0.599" />
+
+    <Button
+        android:id="@+id/btnStopVibrate"
+        android:layout_width="180dp"
+        android:layout_height="47dp"
+        android:text="parar vibração"
+        tools:layout_conversion_absoluteX="187dp"
+        tools:layout_conversion_absoluteY="270dp"
+        tools:layout_conversion_absoluteWidth="177dp"
+        tools:layout_conversion_absoluteHeight="48dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintVertical_bias="0.599" />
+
+
+    <TextView
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:text="Byte Received:"
+        android:textStyle="bold"
+        tools:layout_conversion_absoluteX="30dp"
+        tools:layout_conversion_absoluteY="348dp"
+        tools:layout_conversion_absoluteWidth="324dp"
+        tools:layout_conversion_absoluteHeight="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintVertical_bias="0.694" />
+
+    <TextView
+        android:id="@+id/txtByte"
+        android:layout_width="324dp"
+        android:layout_height="100dp"
+        android:scrollHorizontally="false"
+        tools:layout_conversion_absoluteX="30dp"
+        tools:layout_conversion_absoluteY="364dp"
+        tools:layout_conversion_absoluteWidth="324dp"
+        tools:layout_conversion_absoluteHeight="100dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintVertical_bias="0.875" />
+
+
+</android.support.constraint.ConstraintLayout>
